@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.listsongs {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    max-width: 500px; /* Limita el ancho máximo a 500px */
+    height: 500px;
+    padding-top: 2%;
+    background-color: #2c2c2d;
+  }
+  
+  .list-group {
+    height: 500px;
+  }
+  
+  .list-group-item {
+    background-color: black;
+    color: white;
+  }
+  
+  .list-group-item:hover {
+    background-color: gray;
+  }
+  
+  .controls {
+    background-color: #2c2c2d;
+  }
+  
+  .btn {
+    font-size: 40px;
+    color: darkgray;
+  }
